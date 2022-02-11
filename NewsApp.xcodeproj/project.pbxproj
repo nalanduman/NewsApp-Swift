@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330FFDFC27B67EF500F943EA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 330FFDFB27B67EF500F943EA /* README.md */; };
+		330FFDFE27B67F1200F943EA /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 330FFDFD27B67F1200F943EA /* screenshot.png */; };
 		3310853E277448E200D84D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3310853D277448E200D84D6E /* AppDelegate.swift */; };
 		33108540277448E200D84D6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3310853F277448E200D84D6E /* SceneDelegate.swift */; };
 		33108542277448E200D84D6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33108541277448E200D84D6E /* ViewController.swift */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		330FFDFB27B67EF500F943EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		330FFDFD27B67F1200F943EA /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot.png; path = ../../../../Desktop/screenshot.png; sourceTree = "<group>"; };
+		330FFDFF27B67F1500F943EA /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		3310853A277448E200D84D6E /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3310853D277448E200D84D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3310853F277448E200D84D6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +53,8 @@
 		33108531277448E200D84D6E = {
 			isa = PBXGroup;
 			children = (
+				330FFDFB27B67EF500F943EA /* README.md */,
+				330FFDFF27B67F1500F943EA /* screenshot.png */,
 				3310853C277448E200D84D6E /* NewsApp */,
 				3310853B277448E200D84D6E /* Products */,
 			);
@@ -72,6 +79,7 @@
 				33108546277448E300D84D6E /* Assets.xcassets */,
 				33108548277448E300D84D6E /* LaunchScreen.storyboard */,
 				3310854B277448E300D84D6E /* Info.plist */,
+				330FFDFD27B67F1200F943EA /* screenshot.png */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -171,7 +179,9 @@
 			files = (
 				3310854A277448E300D84D6E /* LaunchScreen.storyboard in Resources */,
 				33108547277448E300D84D6E /* Assets.xcassets in Resources */,
+				330FFDFC27B67EF500F943EA /* README.md in Resources */,
 				33108545277448E200D84D6E /* Main.storyboard in Resources */,
+				330FFDFE27B67F1200F943EA /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
